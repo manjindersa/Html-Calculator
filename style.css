@@ -1,0 +1,77 @@
+* {
+    text-align: center;
+    font-family: monospace;
+}
+
+.btn {
+    width: 50px;
+    height: 30px;
+    margin: 5px;
+    border: 0px;
+    background-color: transparent;
+    box-shadow: 1px 1px 5px grey;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.clear {
+    width: 114px;
+    background-color: red;
+    color: white !important;
+}
+
+.plus {
+    height: 75px;
+    background-color: green;
+    color: white !important;
+}
+
+.equal {
+    background-color: rgb(7, 113, 200);
+    color: white !important;
+}
+#lt_dr {
+    color: white !important;
+}
+.equal {
+    background-color: rgb(7, 113, 200);
+    color: white !important;
+}
+
+table {
+    margin: 10px auto;
+}
+
+#txtDisplay {
+    width: 236px;
+    text-align: right;
+    box-sizing: border-box;
+    padding: 10px 5px;
+    font-size: 20px;
+    box-shadow: 1px 1px 5px grey;
+    border: 0px;
+}
+
+
+#container {
+    box-shadow: 2px 2px 10px grey;
+    width: 262px;
+    margin: 100px auto;
+    padding: 50px 40px;
+    animation: ripple 0.6s linear infinite;
+    border-radius: 15px;
+}
+
+#body {
+    background-color: #ffffff;
+}
+
+@keyframes ripple {
+    0% {
+        box-shadow: 0 0 0 0 rgba(0, 255, 0, 0.1), 0 0 0 20px rgba(0, 255, 0, 0.1), 0 0 0 40px rgba(0, 255, 0, 0.1), 0 0 0 60px rgba(0, 255, 0, 0.1);
+    }
+
+    100% {
+        box-shadow: 0 0 0 20px rgba(0, 255, 0, 0.1), 0 0 0 40px rgba(0, 255, 0, 0.1), 0 0 0 60px rgba(0, 255, 0, 0.1), 0 0 0 80px rgba(0, 255, 0, 0);
+    }
+}

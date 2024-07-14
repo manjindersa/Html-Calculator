@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manjinder's Webpage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="body">
+    <button id="lt_dr" class="btn" style="background-color: blue;" onclick="chng()">Dark</button>
+    <div id="container">
+        <div id="txt-container">
+            <input type="text" name="" id="txtDisplay">
+        </div>
+
+        <table>
+            <tr>
+                <td colspan="2"><button class="btn clear" id="clr" onclick="clr()">Clear</button></td>
+                <td><button class="btn" id="div" onclick="btn_pressed('/')">/</button></td>
+                <td><button class="btn" id="multi" onclick="btn_pressed('*')">*</button></td>
+            </tr>
+            <tr>
+                <td><button class="btn" id="seven" onclick="btn_pressed('7')">7</button></td>
+                <td><button class="btn" id="eight" onclick="btn_pressed('8')">8</button></td>
+                <td><button class="btn" id="nine" onclick="btn_pressed('9')">9</button></td>
+                <td><button class="btn" id="minus" onclick="btn_pressed('-')">-</button></td>
+            </tr>
+            <tr>
+                <td><button class="btn" id="four" onclick="btn_pressed('4')">4</button></td>
+                <td><button class="btn" id="five" onclick="btn_pressed('5')">5</button></td>
+                <td><button class="btn" id="six" onclick="btn_pressed('6')">6</button></td>
+                <td rowspan="2"><button class="btn plus" id="plus" onclick="btn_pressed('+')">+</button></td>
+            </tr>
+            <tr>
+                <td><button class="btn" id="one" onclick="btn_pressed('1')">1</button></td>
+                <td><button class="btn" id="two" onclick="btn_pressed('2')">2</button></td>
+                <td><button class="btn" id="three" onclick="btn_pressed('3')">3</button></td>
+            </tr>
+            <tr>
+                <td><button class="btn" id="zero" onclick="btn_pressed('0')">0</button></td>
+                <td><button class="btn" id="dblzero" onclick="btn_pressed('00')">00</button></td>
+                <td><button class="btn" id="dot" onclick="btn_pressed('.')">.</button></td>
+                <td><button class="btn equal" id="equal" onclick="btn_pressed('=')">=</button></td>
+            </tr>
+        </table>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
